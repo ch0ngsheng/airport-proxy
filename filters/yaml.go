@@ -3,8 +3,8 @@ package filters
 import (
 	"gopkg.in/yaml.v2"
 
-	"cnf/common"
-	"cnf/logger"
+	"airport-proxy/common"
+	"airport-proxy/logger"
 )
 
 // YamlFilter Yaml类型的过滤，针对Yaml格式，格式见demo.yaml

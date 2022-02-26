@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"strings"
 
-	"cnf/common"
-	"cnf/filters"
-	"cnf/logger"
-	"cnf/utils"
+	"airport-proxy/common"
+	"airport-proxy/filters"
+	"airport-proxy/logger"
+	"airport-proxy/utils"
 )
 
 func init() {

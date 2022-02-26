@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"cnf/logger"
+	"airport-proxy/logger"
 )
 
 const (

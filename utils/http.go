@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"cnf/logger"
+	"airport-proxy/logger"
 )
 
 func HTTPGet(url string, headers map[string]string) (error, []byte) {
