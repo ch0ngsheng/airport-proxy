@@ -1,0 +1,28 @@
+{
+  "airports": [
+    {
+      "name": "NiceCloud",
+      "url": "http://nicelsp.xyz/api/v1/client/subscribe",
+      "method": "get",
+      "params": [
+        {
+          "key": "token",
+          "value": "自动获取实际请求中的token值"
+        }
+      ],
+      "keywords": ["x50"]
+    },
+    {
+      "name": "CMYNetwork",
+      "url": "https://sub.pz.pe/subscribe/",
+      "method": "get",
+      "params": [
+        {
+          "key": "clash",
+          "value": "ssr&trojan"
+        }
+      ],
+      "keywords": ["倍率"]
+    }
+  ]
+}
