@@ -19,6 +19,7 @@ git clone https://github.com/ch0ngsheng/airport-proxy.git
 cd airport-proxy
 go build -o proxy main.go
 ```
+
 ### 修改配置文件
 ```shell
 vim config.json
@@ -30,12 +31,16 @@ vim config.json
 ./proxy
 ```
 默认监听http的9090端口，可使用`--port`参数自定义端口。
+
 ### 客户端添加配置
-在客户端中添加托管配置，url格式为（已nicecloud机场为例）
+在客户端中添加托管配置，url格式为（以nicecloud机场为例）
 ```text
 http://{IP}:9090/v1/ap/filter?ap=nicecloud&token={token}
 ```
 其中token为机场提供的身份信息，可从机场官网的订阅链接中获取
+
+### 验证效果
+![倍率节点已被过滤](https://github.com/ch0ngsheng/airport-proxy/blob/main/pic/compare.png)
 
 ## 支持平台
 目前已验证的机场有：
